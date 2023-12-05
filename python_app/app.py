@@ -12,7 +12,7 @@ camera = cv2.VideoCapture(0)  # веб камера
 
 controlX, controlY = 0, 0  # глобальные переменные положения джойстика с web-страницы
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 output_frames_per_second = 20.0
  
